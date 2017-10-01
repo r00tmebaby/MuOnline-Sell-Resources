@@ -51,12 +51,6 @@ https://image.prntscr.com/image/6gp9ZgK4Q86FUTSX7ccZ1A.png
 
 - Form Fields Key: This is your security key that will be used for the post data encryption and csrf token protection. Please note that the different PHP versions uses different encrypting functions and you must make sure that the current one extension is enabled in the php.ini to make it work. Check out the pictures below to see the differences. Be aware that openssl encryption function will be deprecated in PHP version 7.2, so future updates will be needed to support it.]
        
-        $option['enc_key']        = "@r00tme";           // Form Fields Encryption / PHP up to 5.3 uses extension mcrypt / PHP up to                 7.1.9 uses openssl_random_pseudo_bytes, so make sure they are uncommented in php.ini
-       
-https://image.prntscr.com/image/Av8yWMLbT__-S1P_ZSfSeg.png
-https://image.prntscr.com/image/sI8BscfCS1mt2ITYwbE5OA.png
-
-
-So that is all about the module, hopefully you will find it useful and manage to install/configure (installing is hard to be called :D) it by yourself. 
-
+PHP up to 5.3   https://image.prntscr.com/image/Av8yWMLbT__-S1P_ZSfSeg.png
+PHP up to 7.1.9 https://image.prntscr.com/image/sI8BscfCS1mt2ITYwbE5OA.png
 
