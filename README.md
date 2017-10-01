@@ -40,9 +40,9 @@ If your PHP version is newer than 5.3 download the right SQLSRV driver/extension
 $option['php_5.3+']       = 1;                    // PHP version switch, 0 = using mssql_query, 1= using sqlsrv_query 
 [/PHP]
      Seasons: Important to change when the Season is 1 or below to 0 and whenever is newer than Season 1 to 1.] 
-[PHP]
+PHP
 $option['mu_version']     = 1;                    // 0 - Season 1(97-99), 1 = Season 2+ up to 12
-[/PHP]
+/PHP
      Web Session: In all cases whether you use the module separated or implemented to the website, you have to replace the "Drakon" with your website session. Example: $option['web_session']    = $_SESSION['username']; ]
 [PHP]
 $option['web_session']    = "Drakon";             // Web Session
